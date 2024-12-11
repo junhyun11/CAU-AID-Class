@@ -32,3 +32,36 @@ Ensure you have the following installed:
    pip install pandas scikit-learn
    ```
 4. Ensure the `iris.csv` dataset is available in the project directory.
+
+## Usage
+1. Run the script:
+   ```bash
+   python knn_iris_classifer.py
+   ```
+2. Enter the number of neighbors(`k`) when prompted.
+3. View the midel's accuracy and balanced accuracy in the console.
+4. Input `sepal.length` and `pental.length` in the format `value1, value2` ro predict the iris species.
+
+## Example
+__Console Interaction:__
+```bash
+Enter the number of neighbors (k) for KNN: 3
+Model Accuracy: 0.96
+Balances Accuracy: 0.95
+Enter the sepal.length and petal.length for the iris in the format 'sepal_length': 5.1,1.8
+Predicted Label: Virginica
+   ```
+
+## Notes
+ - Ensure that the input for predictions is numveris and follows the correct format(`value1,value2`).
+ - Modify the dataset loading path in the script if necessary.
+
+## License
+This Project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
+
+## Author
+Developed by [junhyun](https://opensource.org/licenses/MIT)
+
+
+
+
